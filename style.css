@@ -1,0 +1,184 @@
+body{
+    background-size: cover;
+    font-family: sans-serif;
+    background: url('img/Saudi.jpg') no-repeat center center fixed ;
+}
+
+.content{
+        margin: 8%;
+        background-color: rgb(255, 255, 255);
+        padding: 3rem 1rem 3rem 1rem;
+        border:solid 1px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        justify-content: center;
+    }
+
+/*---------Form---------------*/
+
+#container1{
+    padding: 2rem 1rem 2rem 1rem;
+    background-color: rgba(231, 245, 239, 0.7);
+
+}
+
+.col-btn{
+    color: rgba(105, 141, 125, 0.7);
+}
+
+.align-1{
+    display:inline-flex;
+    padding-inline-start: 10px;
+}
+.form-control{
+background: transparent;
+border-radius: 0px;
+border:0px;
+border-bottom: 1px solid rgb(107, 117, 161);
+}
+.btn-simple{
+    background: royalblue;
+    text-align: center;
+    padding: 15px;
+    border-radius: 5px;
+    border:none;
+    width: 200px;
+}
+h1{
+    color: #e9b148;
+    font-size: 20px;
+}
+#choice1_error,
+ #choice2_error,
+ #choice3_error{
+	margin-top: 5px;
+	width: 345px;
+	font-size: 18px;
+	color: #C62828;
+	background: rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border: 1px solid #EF9A9A;
+	display: none;
+}
+
+
+
+
+
+/*---------------------*/
+@media (max-width: 575.98px) { 
+    .color-2{
+        color: rgb(142, 216, 69);
+        margin-left:10%;
+        font-weight: bold;
+    }
+    .color-1{
+        color:red;
+        margin-left: 150px;
+        font-weight: bold;
+        
+    }
+    .signin-text{
+        font-size: 0.5rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    .btn-size{
+        width: 40px;
+    }
+   
+    
+    
+ }
+ @media (max-width: 767.98px) { 
+    .color-2{
+        color: rgb(142, 216, 69);
+        margin-right:15%;
+        font-weight: bold;
+    }
+    .color-1{
+        color:red;
+        margin-left: 100px;
+        font-weight: bold;
+        
+    }
+    .signin-text{
+        font-size: 0.5rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    .btn-size{
+        width: 55px;
+    }
+    
+ }
+
+ @media (max-width: 991.98px) { 
+     .color-2{
+        color: rgb(142, 216, 69);
+        margin-right:5%;
+        font-weight: bold;
+    }
+    .color-1{
+        color:red;
+        margin-left: 80px;
+        font-weight: bold;
+        
+    }
+    .signin-text{
+        font-size: 0.5rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    .btn-size{
+        width: 50px;
+    }
+  
+  }
+
+
+
+
+  @media (max-width: 1199.98px) { 
+    .color-2{
+        color: rgb(142, 216, 69);
+        margin-left:70%;
+        font-weight: bold;
+    }
+    .color-1{
+        color:red;
+        margin-left: 200px;
+        font-weight: bold;
+    }
+    .signin-text{
+        font-size: 0.5rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    .btn-size{
+        width: 40px;
+    }
+   
+   }
+  
+  
+   @media (max-width: 1399.98px) { 
+    .color-2{
+        color: rgb(142, 216, 69);
+        margin-left:70%;
+        font-weight: bold;
+    }
+    .color-1{
+        color:red;
+        margin-left: 190px;
+        font-weight: bold;
+        
+    }
+    .signin-text{
+        font-size: 0.5rem;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+    
+    }

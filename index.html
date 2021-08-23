@@ -1,0 +1,185 @@
+<!doctype html>
+<html dir="rtl" lang="ar" >
+  <head>
+    <title>استطلاع</title>
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+  <body >
+      <div class="container">
+        <div class="row content">
+            <div class="">
+                <div class="text-center">
+                   <img src="img/logo.png" alt="logo" class="signin-text">
+                </div>
+                <form method="post" name="form" onsubmit="return validated()">
+                    <div class="from-group ">
+                        <div id="container1" class="mx-0 mx-sm-auto ">
+                                <p class="text-right">
+                                  <strong>على مقياس من 1 إلى5، ما مدى احتمالية أن توصي بالخطوط
+                                   الجوية السعودية لصديق أو زميل؟
+                                  </strong>
+                                </p> 
+                            <div class="btn-toolbar justify-content-center" role="toolbar"
+                              aria-label="Toolbar with button groups" >
+                              <div class="btn-group me-2" role="group" aria-label="First group" class="col-btn">
+                                <button id="c" type="button" class="btn btn-light btn-size">0</button>
+                                <button type="button" class="btn btn-light btn-size">1</button>
+                                <button type="button" class="btn btn-light btn-size">2</button>
+                                <button type="button" class="btn btn-light btn-size">3</button>
+                                <button type="button" class="btn btn-light btn-size">4</button>
+                                <button type="button" class="btn btn-light btn-size">5</button>
+                              </div>
+                            </div>
+                            <div class="align-1">
+                              <p class ="text-right color-1">من المستبعد جدا</p>
+                              <p class ="text-left color-2 pl-5">من المرجح جدا</p>
+                            </div>
+                            <div id="cont2" >
+                              <p class="text-right"><strong>يرجى توضيح سبب هذا التصنيف المنخفض</strong></p>
+                              <input type="text" class="form-control" name="choice1" placeholder="اكتب إجابتك هنا ..." >
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group pt-5">
+                        <div id="container1">
+                            <p class="text-right"><strong>أخبرنا المزيد عن إجابتك</strong></p>
+                           <input type="text" class="form-control" name="choice1" placeholder="اكتب إجابتك هنا ..." >
+                        </div>
+                        <div id="choice1_error">الرجاء ملء هذا الحقل!</div>
+                    </div>
+                    
+                    <div class="from-group pt-4">
+                        <div id="container1" class="mx-0 mx-sm-auto">
+                                 <p class="text-right">
+                                     <strong>على مقياس من 1 إلى 5 ، ما مدى سعادتك بتجربتك اليوم؟</strong>
+                                 </p> 
+                            <div class="btn-toolbar justify-content-center" role="toolbar"
+                              aria-label="Toolbar with button groups" >
+                              <div class="btn-group me-2" role="group" aria-label="First group" class="col-btn">
+                                <button id="c1" type="button" class="btn btn-light btn-size">0</button>
+                                <button type="button" class="btn btn-light btn-size">1</button>
+                                <button type="button" class="btn btn-light btn-size">2</button>
+                                <button type="button" class="btn btn-light btn-size">3</button>
+                                <button type="button" class="btn btn-light btn-size">4</button>
+                                <button type="button" class="btn btn-light btn-size">5</button>
+                              </div>
+                            </div>
+                            <div class="align-1">
+                                <p class ="text-right color-1">من المستبعد جدا</p>
+                                <p class ="text-left color-2 pl-5">من المرجح جدا</p>
+                            </div>
+                            <div id="cont1" >
+                              <p class="text-right"><strong>يرجى توضيح سبب هذا التصنيف المنخفض</strong></p>
+                              <input type="text" class="form-control" name="choice1" placeholder="اكتب إجابتك هنا ..." >
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group pt-5">
+                        <div id="container1">
+                            <p class="text-right"><strong>أخبرنا المزيد عن إجابتك</strong></p>
+                           <input type="text" class="form-control" name="choice2" placeholder="اكتب إجابتك هنا ..." >
+                        </div>
+                        <div id="choice2_error">الرجاء ملء هذا الحقل!</div>
+                    </div>
+
+                    <div class="from-group pt-4">
+                        <div id="container1" class="mx-0 mx-sm-auto">
+                                 <p class="text-right">
+                                    <strong>ما مدى سهولة حل مشكلتك اليوم؟</strong>
+                                 </p> 
+                            <div class="btn-toolbar justify-content-center" role="toolbar"
+                              aria-label="Toolbar with button groups">
+                              <div class="btn-group me-2" role="group" aria-label="First group" class="col-btn">
+                                <button id="c2" type="button" class="btn btn-light btn-size">0</button>
+                                <button type="button" class="btn btn-light btn-size">1</button>
+                                <button type="button" class="btn btn-light btn-size">2</button>
+                                <button type="button" class="btn btn-light btn-size">3</button>
+                                <button type="button" class="btn btn-light btn-size">4</button>
+                                <button type="button" class="btn btn-light btn-size">5</button>
+                              </div>
+                            </div>
+                            <div class="align-1">
+                                <p class ="text-right color-1">من المستبعد جدا</p>
+                                <p class ="text-left color-2 pl-5">من المرجح جدا</p>
+                            </div>
+                            <div id="cont3" >
+                              <p class="text-right"><strong>يرجى توضيح سبب هذا التصنيف المنخفض</strong></p>
+                              <input type="text" class="form-control" name="choice1" placeholder="اكتب إجابتك هنا ..." >
+                            </div>
+                      </div>
+                    </div>
+
+                    <div class="form-group pt-5">
+                        <div id="container1">
+                            <p class="text-right"><strong>أخبرنا المزيد عن إجابتك</strong></p>
+                           <input type="text" class="form-control" name="choice3" placeholder="اكتب إجابتك هنا ..." >
+                        </div>
+                        <div id="choice3_error">الرجاء ملء هذا الحقل!</div>
+                    </div>
+                    
+                  
+                    <div class="text-center pt-4">
+                        <button type="submit" class="btn-simple "><h1>إرسال </h1></button>
+                    </div>
+                </form>
+          </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="valid.js"></script>
+    <script>
+      const c =document.querySelector('#c');
+      const cont1= document.querySelector('#cont2');
+      cont1.style.display='none';
+      c.addEventListener('click', () => {
+        if(cont1.style.display === 'none'){
+          cont1.style.display= 'block';
+        }else{
+          cont1.style.display= 'none';
+          c.innerHTML= '0';
+        }
+      });
+    </script>
+    
+    <script>
+      const c1 =document.querySelector('#c1');
+      const cont2= document.querySelector('#cont1');
+      cont2.style.display='none';
+      c1.addEventListener('click', () => {
+        if(cont2.style.display === 'none'){
+          cont2.style.display= 'block';
+        }else{
+          cont2.style.display= 'none';
+          c1.innerHTML= '0';
+        }
+      });
+    </script>
+
+<script>
+  const c2 =document.querySelector('#c2');
+  const cont3= document.querySelector('#cont3');
+  cont3.style.display='none';
+  c2.addEventListener('click', () => {
+    if(cont3.style.display === 'none'){
+      cont3.style.display= 'block';
+    }else{
+      cont3.style.display= 'none';
+      c2.innerHTML= '0';
+    }
+  });
+</script>
+    
+</body>
+</html>
